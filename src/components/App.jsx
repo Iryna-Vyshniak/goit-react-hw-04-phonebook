@@ -40,15 +40,21 @@ export default function App() {
   };
 
   const changeFilter = e => {
-    setFilter({ filter: e.target.value.toLowerCase().trim() });
+    setFilter(e.target.value.toLowerCase().trim());
   };
 
   const getVisibleContacts = () => {
     const normalizedFilter = filter.toLowerCase();
 
-    return contacts.filter(contact =>
+    const filteredContacts = contacts.filter(contact =>
       contact.name.toLowerCase().trim().includes(normalizedFilter)
     );
+
+    if (normalizedFilter && !filteredContacts.length) {
+      toast.warn(`No contacts matching your request`, toastifyOptions);
+    }
+
+    return filteredContacts;
   };
 
   return (
