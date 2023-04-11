@@ -33,14 +33,12 @@ const schema = yup.object().shape({
     )
     .required(),
 });
+const initialValues = { name: '', number: '' };
 
 export const ContactForm = ({ onAddContact }) => {
   return (
     <Formik
-      initialValues={{
-        name: '',
-        number: '',
-      }}
+      initialValues={initialValues}
       onSubmit={(values, { resetForm }) => {
         //console.log(values);
         //console.log(actions); // resetForm, validateForm, ...
