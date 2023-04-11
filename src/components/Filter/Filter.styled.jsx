@@ -27,8 +27,8 @@ export const Input = styled.input`
   border: 0;
   outline: 0;
   border-radius: 8px;
-  color: ${props => props.theme.colors.text};
-  text-shadow: 0 0.5px 0.5px 0.5px #fff;
+  color: ${props => props.theme.colors.white};
+  text-shadow: 0.5px 0.5px 0.5px #4b1414;
 
   background-color: transparent;
   box-shadow: inset 1px 1px 3px #b0706f, inset -1px -1px 5px #fff;

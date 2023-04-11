@@ -18,8 +18,8 @@ export const Item = styled.li`
   align-items: center;
   gap: 16px;
 
-  color: ${p => p.theme.colors.text};
-  text-shadow: 0.5px 0.5px 0.5px #fff;
+  color: ${props => props.theme.colors.white};
+  text-shadow: 0.5px 0.5px 0.5px #4b1414;
   font-size: ${props => props.theme.fontSizes.s};
 `;
 
@@ -34,7 +34,7 @@ export const Btn = styled.button`
   border-radius: 8px;
 
   color: ${p => p.theme.colors.white};
-  background-color: ${p => p.theme.colors.muted};
+  background-color: ${p => p.theme.colors.background};
   box-shadow: ${p => p.theme.shadows.boxShadow};
   transition: all 0.2s ease-in-out;
 

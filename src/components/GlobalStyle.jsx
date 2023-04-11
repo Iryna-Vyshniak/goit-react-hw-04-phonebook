@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
 
     background: linear-gradient(211deg, rgba(75,20,20,1) 0%, rgba(224,171,173,1) 39%, rgba(216,163,165,1) 57%, rgba(253,215,215,1) 73%, rgba(255,255,255,1) 100%) no-repeat fixed;
 
-    background-image: url(https://images.unsplash.com/photo-1617055407123-3d7130c1f940?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTY5fHxwaW5rJTIwYWJzdHJhY3QlMjB0ZW5kZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+     background-image: url(https://images.unsplash.com/photo-1592492152545-9695d3f473f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

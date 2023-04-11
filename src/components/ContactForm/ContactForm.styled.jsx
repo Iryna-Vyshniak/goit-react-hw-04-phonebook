@@ -42,8 +42,8 @@ export const FieldFormik = styled(Field)`
   border: 0;
   outline: 0;
   border-radius: 8px;
-  color: ${props => props.theme.colors.text};
-  text-shadow: 0 0.5px 0.5px 0.5px #fff;
+  color: ${props => props.theme.colors.white};
+  text-shadow: 0.5px 0.5px 0.5px #4b1414;
   background-color: transparent;
   box-shadow: inset 1px 1px 3px #b0706f, inset -1px -1px 5px #fff;
 
@@ -53,7 +53,7 @@ export const FieldFormik = styled(Field)`
 export const ErrorMessage = styled(FormikError)`
   max-width: 500px;
   color: #9e0202;
-  text-shadow: 0 0.5px 0.5px #fff;
+  text-shadow: 0 0.4px 0.4px #fff;
 `;
 
 export const StyledButton = styled.button`
@@ -76,7 +76,7 @@ export const StyledButton = styled.button`
   box-shadow: ${p => p.theme.shadows.boxShadow};
   transition: all 0.2s ease-in-out;
 
-  background-color: ${p => p.theme.colors.muted};
+  background-color: ${p => p.theme.colors.background};
 
   color: ${p => p.theme.colors.white};
   text-shadow: ${props => props.theme.shadows.textShadow};

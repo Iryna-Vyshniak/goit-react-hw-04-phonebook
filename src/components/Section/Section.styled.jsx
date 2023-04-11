@@ -13,7 +13,7 @@ export const SectionWrapper = styled.section`
 
   mix-blend-mode: normal;
   filter: drop-shadow(0px 18px 80px rgba(265, 265, 265, 1));
-  backdrop-filter: blur(8.5px);
+  backdrop-filter: blur(7.5px);
 
   box-shadow: -1px -1px 15px #4b1414, 15px 15px 35px #fff;
 `;
